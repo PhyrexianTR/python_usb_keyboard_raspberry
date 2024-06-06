@@ -12,7 +12,7 @@ echo 0x0100 > bcdDevice
 echo 0x0200 > bcdUSB
 
 mkdir -p strings/0x409
-echo "123123123" > strings/0x409/serialnumber
+echo "fedcba9876543210" > strings/0x409/serialnumber
 echo "Raspberry Pi" > strings/0x409/manufacturer
 echo "Keyboard" > strings/0x409/product
 
